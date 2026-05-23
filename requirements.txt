@@ -1,0 +1,25 @@
+# ── Web framework ──────────────────────────────────────────
+fastapi==0.115.12
+uvicorn[standard]==0.32.1
+
+# ── Data processing ────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+
+# ── Databricks ─────────────────────────────────────────────
+databricks-sql-connector==3.5.0
+
+# ── ML / Reranker ──────────────────────────────────────────
+# PySpark ALS (version should match your Databricks Runtime)
+pyspark==3.5.1
+# BGE cross-encoder reranker
+transformers==4.44.2
+torch==2.3.1
+sentencepiece==0.2.0
+
+# ── Progress + logging ─────────────────────────────────────
+tqdm==4.66.4
+
+# ── Config / env ───────────────────────────────────────────
+python-dotenv==1.0.1

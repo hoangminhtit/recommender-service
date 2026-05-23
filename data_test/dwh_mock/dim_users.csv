@@ -1,0 +1,101 @@
+user_id,username,full_name,email,role,is_active
+1,huynhdieuha1991,Hu nh Di u H,huynhdieuha1991@example.com,buyer,True
+2,tranngocmy1988,Tr n Ng c My,tranngocmy1988@example.com,buyer,True
+3,huynhdieutrang1986,Hu nh Di u Trang,huynhdieutrang1986@example.com,buyer,True
+4,vongocmy1987,V Ng c My,vongocmy1987@example.com,buyer,True
+5,buimynhung1991,B i M Nhung,buimynhung1991@example.com,buyer,True
+6,nguyenquangtung1994,Nguy n Quang T ng,nguyenquangtung1994@example.com,buyer,True
+7,phamhuukien1993,Ph m H u Ki n,phamhuukien1993@example.com,buyer,True
+8,buimyha1996,B i M H,buimyha1996@example.com,buyer,True
+9,phamdieuquynh2005,Ph m Di u Qu nh,phamdieuquynh2005@example.com,buyer,True
+10,dangducnam1992,ng c Nam,dangducnam1992@example.com,buyer,True
+11,vugiahung2005,V Gia H ng,vugiahung2005@example.com,buyer,True
+12,buicongtung1986,B i C ng T ng,buicongtung1986@example.com,buyer,True
+13,nguyencongkien1993,Nguy n C ng Ki n,nguyencongkien1993@example.com,buyer,True
+14,phamconghieu2005,Ph m C ng Hi u,phamconghieu2005@example.com,buyer,True
+15,phanmaiha1993,Phan Mai H,phanmaiha1993@example.com,buyer,True
+16,phamanhnam1993,Ph m Anh Nam,phamanhnam1993@example.com,buyer,True
+17,dangbichlinh1992,ng B ch Linh,dangbichlinh1992@example.com,buyer,True
+18,voxuanbao1986,V Xu n B o,voxuanbao1986@example.com,buyer,True
+19,leductung1998,L c T ng,leductung1998@example.com,buyer,True
+20,phangiaphuc1999,Phan Gia Ph c,phangiaphuc1999@example.com,buyer,True
+21,vothiphuong1988,V Th Ph ng,vothiphuong1988@example.com,buyer,True
+22,buimychi1994,B i M Chi,buimychi1994@example.com,buyer,True
+23,lemaian1993,L Mai An,lemaian1993@example.com,buyer,True
+24,vohuuquan1994,V H u Qu n,vohuuquan1994@example.com,buyer,True
+25,lecongtung1990,L C ng T ng,lecongtung1990@example.com,buyer,True
+26,dangconglong1985,ng C ng Long,dangconglong1985@example.com,buyer,True
+27,huynhminhhieu1986,Hu nh Minh Hi u,huynhminhhieu1986@example.com,buyer,True
+28,danghuubao2000,ng H u B o,danghuubao2000@example.com,buyer,True
+29,voducduy2000,V c Duy,voducduy2000@example.com,buyer,True
+30,hoanganhphuc1998,Ho ng Anh Ph c,hoanganhphuc1998@example.com,buyer,True
+31,voquangson1994,V Quang S n,voquangson1994@example.com,buyer,True
+32,buimyngan2001,B i M Ng n,buimyngan2001@example.com,buyer,True
+33,tranthuyhuong1987,Tr n Th y H ng,tranthuyhuong1987@example.com,buyer,True
+34,nguyenkhanhhuong2003,Nguy n Kh nh H ng,nguyenkhanhhuong2003@example.com,buyer,True
+35,nguyenhuuson2005,Nguy n H u S n,nguyenhuuson2005@example.com,buyer,True
+36,phamhuuan1995,Ph m H u An,phamhuuan1995@example.com,buyer,True
+37,voquanghung2000,V Quang H ng,voquanghung2000@example.com,buyer,True
+38,voducson2003,V c S n,voducson2003@example.com,buyer,True
+39,phammaitrang1998,Ph m Mai Trang,phammaitrang1998@example.com,buyer,True
+40,tranhuuquan1998,Tr n H u Qu n,tranhuuquan1998@example.com,buyer,True
+41,phanbichngan1986,Phan B ch Ng n,phanbichngan1986@example.com,buyer,True
+42,nguyengiason1995,Nguy n Gia S n,nguyengiason1995@example.com,buyer,True
+43,phamquanghieu2002,Ph m Quang Hi u,phamquanghieu2002@example.com,buyer,True
+44,lebichha1993,L B ch H,lebichha1993@example.com,buyer,True
+45,phamngocngan2002,Ph m Ng c Ng n,phamngocngan2002@example.com,buyer,True
+46,nguyenanhan1987,Nguy n Anh An,nguyenanhan1987@example.com,buyer,True
+47,legialong2000,L Gia Long,legialong2000@example.com,buyer,True
+48,phanvanduy1997,Phan V n Duy,phanvanduy1997@example.com,buyer,True
+49,phanminhtung1999,Phan Minh T ng,phanminhtung1999@example.com,buyer,True
+50,phankhanhphuong2000,Phan Kh nh Ph ng,phankhanhphuong2000@example.com,buyer,True
+51,phamminhhieu1986,Ph m Minh Hi u,phamminhhieu1986@example.com,buyer,True
+52,docongan1986,C ng An,docongan1986@example.com,buyer,True
+53,vokhanhha1986,V Kh nh H,vokhanhha1986@example.com,buyer,True
+54,lehuuphuc1987,L H u Ph c,lehuuphuc1987@example.com,buyer,True
+55,phanhuuphuc1992,Phan H u Ph c,phanhuuphuc1992@example.com,buyer,True
+56,danghuukien2003,ng H u Ki n,danghuukien2003@example.com,buyer,True
+57,hoangthuyphuong1995,Ho ng Th y Ph ng,hoangthuyphuong1995@example.com,buyer,True
+58,hoanggiaduy2005,Ho ng Gia Duy,hoanggiaduy2005@example.com,buyer,True
+59,vumytrang1987,V M Trang,vumytrang1987@example.com,buyer,True
+60,vuhuubao2002,V H u B o,vuhuubao2002@example.com,buyer,True
+61,vominhduy1996,V Minh Duy,vominhduy1996@example.com,buyer,True
+62,phamconghung1990,Ph m C ng H ng,phamconghung1990@example.com,buyer,True
+63,vodieunhung2005,V Di u Nhung,vodieunhung2005@example.com,buyer,True
+64,buianhhung1988,B i Anh H ng,buianhhung1988@example.com,buyer,True
+65,hoanghuubao2002,Ho ng H u B o,hoanghuubao2002@example.com,buyer,True
+66,hoangminhphuc1991,Ho ng Minh Ph c,hoangminhphuc1991@example.com,buyer,True
+67,phamdieunhi2000,Ph m Di u Nhi,phamdieunhi2000@example.com,buyer,True
+68,nguyenngocphuong1998,Nguy n Ng c Ph ng,nguyenngocphuong1998@example.com,buyer,True
+69,nguyenthilinh1989,Nguy n Th Linh,nguyenthilinh1989@example.com,buyer,True
+70,lemainhi1998,L Mai Nhi,lemainhi1998@example.com,buyer,True
+71,tranhuuson1989,Tr n H u S n,tranhuuson1989@example.com,buyer,True
+72,huynhanhduy1998,Hu nh Anh Duy,huynhanhduy1998@example.com,buyer,True
+73,nguyenminhkhanh1986,Nguy n Minh Kh nh,nguyenminhkhanh1986@example.com,buyer,True
+74,phamthuyphuong1988,Ph m Th y Ph ng,phamthuyphuong1988@example.com,buyer,True
+75,vobichnhung1989,V B ch Nhung,vobichnhung1989@example.com,buyer,True
+76,leduckien1985,L c Ki n,leduckien1985@example.com,buyer,True
+77,docongtung1998,C ng T ng,docongtung1998@example.com,buyer,True
+78,hoangductung1988,Ho ng c T ng,hoangductung1988@example.com,buyer,True
+79,nguyenmaihuong1991,Nguy n Mai H ng,nguyenmaihuong1991@example.com,buyer,True
+80,huynhdieutrang1992,Hu nh Di u Trang,huynhdieutrang1992@example.com,buyer,True
+81,nguyenquangkien1995,Nguy n Quang Ki n,nguyenquangkien1995@example.com,buyer,True
+82,trandieulinh2005,Tr n Di u Linh,trandieulinh2005@example.com,buyer,True
+83,buikhanhlinh1985,B i Kh nh Linh,buikhanhlinh1985@example.com,buyer,True
+84,hoangducphuc1993,Ho ng c Ph c,hoangducphuc1993@example.com,buyer,True
+85,trangiakhanh1995,Tr n Gia Kh nh,trangiakhanh1995@example.com,buyer,True
+86,dangkhanhchi1997,ng Kh nh Chi,dangkhanhchi1997@example.com,buyer,True
+87,hoangvanson1998,Ho ng V n S n,hoangvanson1998@example.com,buyer,True
+88,voanhquan1991,V Anh Qu n,voanhquan1991@example.com,buyer,True
+89,phanngocphuong1995,Phan Ng c Ph ng,phanngocphuong1995@example.com,buyer,True
+90,buingocquynh1994,B i Ng c Qu nh,buingocquynh1994@example.com,buyer,True
+91,buibichlinh1997,B i B ch Linh,buibichlinh1997@example.com,buyer,True
+92,vothanhhuong1998,V Thanh H ng,vothanhhuong1998@example.com,buyer,True
+93,buithanhnhung2003,B i Thanh Nhung,buithanhnhung2003@example.com,buyer,True
+94,phankhanhan1994,Phan Kh nh An,phankhanhan1994@example.com,buyer,True
+95,phambichtrang2003,Ph m B ch Trang,phambichtrang2003@example.com,buyer,True
+96,vumaingan1991,V Mai Ng n,vumaingan1991@example.com,buyer,True
+97,dothanhphuong1987,Thanh Ph ng,dothanhphuong1987@example.com,buyer,True
+98,vomychi1992,V M Chi,vomychi1992@example.com,buyer,True
+99,phamthuyha1985,Ph m Th y H,phamthuyha1985@example.com,buyer,True
+100,phamxuanphuc1987,Ph m Xu n Ph c,phamxuanphuc1987@example.com,buyer,True
