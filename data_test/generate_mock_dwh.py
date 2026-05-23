@@ -5,6 +5,7 @@ import random
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
+import unicodedata
 
 BASE_DIR = Path(__file__).resolve().parent
 SEED_PATH = BASE_DIR / "dev-seeds.json"
@@ -27,7 +28,8 @@ RATING_WEIGHTS = [0.05, 0.05, 0.2, 0.35, 0.35]
 def _ascii_text(value: str, fallback: str = "Unknown") -> str:
     if value is None:
         return fallback
-    cleaned = "".join(ch if ord(ch) < 128 else " " for ch in str(value))
+    # Keep Unicode (Vietnamese accents) and only normalize whitespace.
+    cleaned = unicodedata.normalize("NFC", str(value))
     cleaned = " ".join(cleaned.split())
     return cleaned or fallback
 
