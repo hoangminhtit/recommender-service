@@ -115,6 +115,8 @@ LIMIT {pool_size}
 def get_popularity_recommendations(
     client,
     top_k: int = 5,
+    user_id: int | None = None,
+    random_state: int | None = None,
 ) -> list[dict]:
     """
     Fetch popularity-based recommendations for cold-start users.
@@ -143,9 +145,15 @@ def get_popularity_recommendations(
         df = client.query(sql)
         pbar.update(1)
 
+    if random_state is None:
+        if user_id is not None:
+            random_state = int(user_id)
+        else:
+            random_state = settings.bpr.seed
+
     # Random sample for diversity
     sample_size = min(top_k, len(df))
-    sampled = df.sample(n=sample_size, random_state=random.randint(0, 9999))
+    sampled = df.sample(n=sample_size, random_state=random_state)
 
     results = [
         {

@@ -170,7 +170,11 @@ def run_pipeline(
                     target_user_id,
                 )
                 return {
-                    target_user_id: get_popularity_recommendations(client, top_k=5)
+                    target_user_id: get_popularity_recommendations(
+                        client,
+                        top_k=5,
+                        user_id=target_user_id,
+                    )
                 }
 
         # ----------------------------------------------------------------
@@ -253,8 +257,6 @@ def run_pipeline(
         # Step 7b — Cold & Hybrid user fallback
         # ----------------------------------------------------------------
         t0 = time.perf_counter()
-        popularity_recs = get_popularity_recommendations(client, top_k=5)
-
         logger.info(
             "Step 7 — Processing %d cold + %d hybrid users …",
             len(user_groups["cold"]),
@@ -262,9 +264,18 @@ def run_pipeline(
         )
 
         for uid in tqdm(user_groups["cold"], desc="Cold-start users", unit="user"):
-            recommendations[uid] = popularity_recs
+            recommendations[uid] = get_popularity_recommendations(
+                client,
+                top_k=5,
+                user_id=uid,
+            )
 
         for uid in tqdm(user_groups["hybrid"], desc="Hybrid users", unit="user"):
+            popularity_recs = get_popularity_recommendations(
+                client,
+                top_k=settings.reranker.top_k,
+                user_id=uid,
+            )
             bpr_recs = [
                 # BUG FIX: dùng đúng key "mf_score" (không phải "semantic_score")
                 {"book_id": r["candidate_book_id"], "mf_score": r.get("mf_score", 0.0)}
